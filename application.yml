@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active:
+     - dev
+    
+---    
+
+spring:
+    profiles: dev     #开发环境
+    application:
+        name:microspringcloud-config-flflflfl-dev
+        
+
+---
+
+spring:
+    profiles: dev     #测试环境
+    application:
+        name:microspringcloud-config-flflflfl-test
+        
+
+#utf-8格式
+        
